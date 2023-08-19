@@ -7,8 +7,12 @@
     font-size: 12px;
 }
 
+#startButton:hover {
+    background-color: rgb(41, 51, 107);
+}
+
 #stopButton {
-    background-color: #e74c3c;
+    background-color: #961b0e;
     color: white;
     border: none;
     border-radius: 5px;
@@ -16,28 +20,54 @@
     font-size: 12px;
 }
 
+#stopButton:hover {
+    background-color: rgb(104, 20, 20);
+}
+
 #restartButton {
-    background-color: #0e9e5b;
+    background-color: #18804f;
     color: white;
     border: none;
     border-radius: 5px;
     padding: 7px 20px;
     font-size: 12px;
 }
+
+#restartButton:hover {
+    background-color: rgb(13, 83, 13);
+}
+
 QMainWindow {
     background-color: #222020; /* Carbon-like background color */
 }
 
 
 QLabel {
-    background-color: #0e9e5b;
+    background-color: #0d4d1b;
     color: white;
     border: none;
     border-radius: 5px;
     padding: 7px 20px;
-    font-size: 12px;
+    font-size: 15px;
 }
-
+/* Фон для полей ввода */
+QLineEdit, QTextEdit {
+    background-color: #222c27; /* Обновленный цвет фона поля ввода */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 3px;
+    font-size: 15px;
+}
+/* Стиль для окна предупреждения (ошибки) */
+QMessageBox#qt_msgbox_label {
+    background-color: #e74c3c; /* Цвет фона для ошибки */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
 /* ALL CHECKBOX  */
 /* button styling */
 TelegramBotGUI QCheckBox {
